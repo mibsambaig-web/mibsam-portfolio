@@ -206,6 +206,8 @@ const projects = [
   { title:'Weather App', desc:'Responsive weather app with real-time data from live API and dynamic UI updates.', tags:['React','JavaScript','API'], github:null, live:'https://mibsam-weather-app.netlify.app', ai:false },
   { title:'BKK by Erum', desc:'Real client website designed and deployed. Professional business site built to client specifications.', tags:['React','CSS','Client Project'], github:null, live:'https://bkk-by-erum.netlify.app', ai:false },
   { title:'To-Do List App', desc:'Full-stack task management app with Node.js backend and PostgreSQL database.', tags:['React','Node.js','PostgreSQL'], github:null, live:'https://todolistprojectmmb.netlify.app/', ai:false },
+  { title:'Real-Time Collaborative Editor', desc:'Google Docs-style collaborative editor where multiple users can type simultaneously with live sync. Features colored user badges and instant WebSocket updates.', tags:['React','Node.js','Socket.io'], github:'https://github.com/mibsambaig-web/collaborative-editor', live:null, ai:false },
+  { title:'WhatsApp AI Chatbot', desc:'AI-powered WhatsApp chatbot that handles customer queries automatically 24/7. Built with Flask, Twilio sandbox, and OpenRouter AI.', tags:['Flask','Twilio','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/whatsapp-bot', live:null, ai:true }
 ]
 
 function Projects() {
