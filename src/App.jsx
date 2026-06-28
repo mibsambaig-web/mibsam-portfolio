@@ -150,7 +150,7 @@ function Hero() {
         </div>
 
         <div style={{ display:'flex', gap:'20px', flexWrap:'wrap' }}>
-          {[['GitHub','https://github.com/mibsambaig-web'],['LinkedIn','https://linkedin.com/in/muhammad-mibsam-baig'],['Fiverr','https://fiverr.com/s/KegAVw4'],['Upwork','#contact']].map(([label,url])=>(
+          {[['GitHub','https://github.com/mibsambaig-web'],['LinkedIn','https://linkedin.com/in/muhammad-mibsam-baig'],['Fiverr','https://fiverr.com/s/KegAVw4'],['Upwork','https://www.upwork.com/freelancers/~0112e35f0bd4008fb9']].map(([label,url])=>(
             <a key={label} href={url} target="_blank" rel="noreferrer" style={{ color:'var(--text2)', fontSize:'13px', fontWeight:500, letterSpacing:'0.04em', transition:'color 0.3s' }}
               onMouseEnter={e=>e.target.style.color='var(--accent)'}
               onMouseLeave={e=>e.target.style.color='var(--text2)'}>{label}</a>
