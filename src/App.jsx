@@ -202,12 +202,12 @@ const projects = [
   { title:'AI Customer Support Chatbot', desc:'Full-stack chatbot with conversation memory, system prompts, and clean chat bubble UI. Built with Flask and React.', tags:['Flask','React','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/ai-chatbot', live:null, ai:true },
   { title:'PDF Q&A App', desc:'Upload any PDF and ask questions. AI answers based on document content using RAG with chunk splitting.', tags:['Flask','React','RAG','AI','PDF'], github:'https://github.com/mibsambaig-web/pdf-qa', live:null, ai:true },
   { title:'AI Interview Coach', desc:'Paste a job description, get tailored interview questions, answer them, and receive detailed AI feedback.', tags:['Flask','React','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/ai-interview-coach', live:null, ai:true },
+  { title:'WhatsApp AI Chatbot', desc:'AI-powered WhatsApp chatbot that handles customer queries automatically 24/7. Built with Flask, Twilio sandbox, and OpenRouter AI.', tags:['Flask','Twilio','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/whatsapp-bot', live:null, ai:true },
   { title:'Clinic Booking App', desc:'Full-stack dental clinic appointment management dashboard. Live and deployed on Vercel and Railway.', tags:['React','Node.js','PostgreSQL','Express'], github:'https://github.com/mibsambaig-web/clinic-booking', live:'https://clinic-booking-git-main-mibsambaig-webs-projects.vercel.app', ai:false },
   { title:'Weather App', desc:'Responsive weather app with real-time data from live API and dynamic UI updates.', tags:['React','JavaScript','API'], github:null, live:'https://mibsam-weather-app.netlify.app', ai:false },
   { title:'BKK by Erum', desc:'Real client website designed and deployed. Professional business site built to client specifications.', tags:['React','CSS','Client Project'], github:null, live:'https://bkk-by-erum.netlify.app', ai:false },
   { title:'To-Do List App', desc:'Full-stack task management app with Node.js backend and PostgreSQL database.', tags:['React','Node.js','PostgreSQL'], github:null, live:'https://todolistprojectmmb.netlify.app/', ai:false },
-  { title:'Real-Time Collaborative Editor', desc:'Google Docs-style collaborative editor where multiple users can type simultaneously with live sync. Features colored user badges and instant WebSocket updates.', tags:['React','Node.js','Socket.io'], github:'https://github.com/mibsambaig-web/collaborative-editor', live:null, ai:false },
-  { title:'WhatsApp AI Chatbot', desc:'AI-powered WhatsApp chatbot that handles customer queries automatically 24/7. Built with Flask, Twilio sandbox, and OpenRouter AI.', tags:['Flask','Twilio','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/whatsapp-bot', live:null, ai:true }
+  { title:'Real-Time Collaborative Editor', desc:'Google Docs-style collaborative editor where multiple users can type simultaneously with live sync. Features colored user badges and instant WebSocket updates.', tags:['React','Node.js','Socket.io'], github:'https://github.com/mibsambaig-web/collaborative-editor', live:null, ai:false }
 ]
 
 function Projects() {
@@ -391,19 +391,18 @@ function Experience() {
     {
       role: "Freelance Full-Stack Developer",
       company: "Fiverr & Upwork",
-      period: "2024 — Present",
+      period: "2026 — Present",
       location: "Remote",
       points: [
-        "Delivered high-quality business websites and web applications to international clients",
-        "Built and shipped multiple AI-powered tools using React, Flask, and LLM APIs",
-        "Maintained consistent 5-star ratings with strong client communication",
+        "Ready to delivered high-quality business websites and web applications to international clients",
+        "Built and multiple AI-powered tools using React, Flask, and LLM APIs",
         "Currently charging $15/hr on Upwork"
       ]
     },
     {
       role: "Full-Stack Developer",
       company: "Personal Projects & Client Work",
-      period: "2023 — Present",
+      period: "2026 — Present",
       location: "Karachi, Pakistan",
       points: [
         "Developed and deployed 8+ full-stack applications including AI Chatbot, PDF Q&A System, and Clinic Booking Dashboard",
