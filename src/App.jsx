@@ -193,7 +193,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div>       
     </section>
   )
 }
@@ -203,11 +203,14 @@ const projects = [
   { title:'PDF Q&A App', desc:'Upload any PDF and ask questions. AI answers based on document content using RAG with chunk splitting.', tags:['Flask','React','RAG','AI','PDF'], github:'https://github.com/mibsambaig-web/pdf-qa', live:null, ai:true },
   { title:'AI Interview Coach', desc:'Paste a job description, get tailored interview questions, answer them, and receive detailed AI feedback.', tags:['Flask','React','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/ai-interview-coach', live:null, ai:true },
   { title:'WhatsApp AI Chatbot', desc:'AI-powered WhatsApp chatbot that handles customer queries automatically 24/7. Built with Flask, Twilio sandbox, and OpenRouter AI.', tags:['Flask','Twilio','OpenRouter API','AI'], github:'https://github.com/mibsambaig-web/whatsapp-bot', live:null, ai:true },
+  { title:'Swift Cargo Shipping Dashboard', desc:'A clean shipping dashboard for shipping companies. Includes Authentication and a AI assistant to help clients and admin. Live and deployed on Vercel and Railway.', tags:['React','.NET','PostgreSQL'], github:'https://github.com/mibsambaig-web/shipping-dashboard', live:'https://shipping-dashboard-three-navy.vercel.app/', ai:true },
   { title:'Clinic Booking App', desc:'Full-stack dental clinic appointment management dashboard. Live and deployed on Vercel and Railway.', tags:['React','Node.js','PostgreSQL','Express'], github:'https://github.com/mibsambaig-web/clinic-booking', live:'https://clinic-booking-git-main-mibsambaig-webs-projects.vercel.app', ai:false },
-  { title:'Weather App', desc:'Responsive weather app with real-time data from live API and dynamic UI updates.', tags:['React','JavaScript','API'], github:null, live:'https://mibsam-weather-app.netlify.app', ai:false },
+  { title:'Weather App', desc:'Responsive weather app with real-time data from live API and dynamic UI updates.', tags:['React','JavaScript','API'], github:'https://github.com/mibsambaig-web/weather-app', live:'https://mibsam-weather-app.netlify.app', ai:false },
   { title:'BKK by Erum', desc:'Real client website designed and deployed. Professional business site built to client specifications.', tags:['React','CSS','Client Project'], github:null, live:'https://bkk-by-erum.netlify.app', ai:false },
-  { title:'To-Do List App', desc:'Full-stack task management app with Node.js backend and PostgreSQL database.', tags:['React','Node.js','PostgreSQL'], github:null, live:'https://todolistprojectmmb.netlify.app/', ai:false },
-  { title:'Real-Time Collaborative Editor', desc:'Google Docs-style collaborative editor where multiple users can type simultaneously with live sync. Features colored user badges and instant WebSocket updates.', tags:['React','Node.js','Socket.io'], github:'https://github.com/mibsambaig-web/collaborative-editor', live:null, ai:false }
+  { title:'To-Do List App', desc:'Full-stack task management app with Node.js backend and PostgreSQL database.', tags:['React','Node.js','PostgreSQL'], github:'https://github.com/mibsambaig-web/todos-app', live:'https://todolistprojectmmb.netlify.app/', ai:false },
+  { title:'Real-Time Collaborative Editor', desc:'Google Docs-style collaborative editor where multiple users can type simultaneously with live sync. Features colored user badges and instant WebSocket updates.', tags:['React','Node.js','Socket.io'], github:'https://github.com/mibsambaig-web/collaborative-editor', live:null, ai:false },
+  { title:'Music App', desc:'A clean music dashboard for streaming music. Live and deployed on Vercel.', tags:['React','Google API'], github:'https://github.com/mibsambaig-web/music-app', live:'https://mibbooo-music.vercel.app/', ai:false },
+  { title:'Youtube', desc:'A clean Streaming dashboard for streaming music and videos. Live and deployed on Vercel.', tags:['React','Google API'], github:'https://github.com/mibsambaig-web/mibbootube', live:'https://mibbootube.vercel.app/', ai:false },
 ]
 
 function Projects() {
